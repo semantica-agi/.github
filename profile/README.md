@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Semantica](https://raw.githubusercontent.com/semantica-agi/semantica/main/Semantica%20Logo.png)
+<img src="https://raw.githubusercontent.com/semantica-agi/semantica/main/Semantica%20Logo.png" alt="Semantica" width="260"/>
 
 ## The Accountability and Context Layer for AI
 
