@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/semantica-agi/semantica/main/Semantica%20Logo.png" alt="Semantica" width="260"/>
 
-## Semantica Infrastructure for AI Systems
+## Semantic Infrastructure for AI Systems
 
 🕸️ Context Graphs &nbsp;·&nbsp; 🧠 Decision Intelligence &nbsp;·&nbsp; 🔍 Full Provenance &nbsp;·&nbsp; ⚙️ Explainable Reasoning
 
