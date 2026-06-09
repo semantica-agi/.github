@@ -1,28 +1,25 @@
-# Semantica
-
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/semantica-agi/semantica/main/Semantica%20Logo.png" alt="Semantica" width="260"/>
+<img src="https://raw.githubusercontent.com/semantica-agi/semantica/main/Semantica%20Logo.png" alt="Semantica" width="220"/>
+
+# Semantica
 
 ## Semantic Infrastructure for AI Systems
 
-🕸️ Context Graphs &nbsp;·&nbsp; 🧠 Decision Intelligence &nbsp;·&nbsp; 🔍 Full Provenance &nbsp;·&nbsp; ⚙️ Explainable Reasoning
+Context · Memory · Provenance · Reasoning — the layer your AI stack is missing
 
-[![Website](https://img.shields.io/badge/🌐%20Website-getsemantica.ai-0066CC?style=for-the-badge)](https://getsemantica.ai/)
-[![Docs](https://img.shields.io/badge/📄%20Docs-docs.getsemantica.ai-0099FF?style=for-the-badge)](https://docs.getsemantica.ai/)
-[![Discord](https://img.shields.io/badge/💬%20Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sV34vps5hH)
-[![X](https://img.shields.io/badge/𝕏%20Twitter-@BuildSemantica-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/BuildSemantica)
+[⭐ Star us on GitHub](https://github.com/semantica-agi/semantica) if it solves a problem you have
 
-[![PyPI](https://img.shields.io/pypi/v/semantica?style=flat-square&label=PyPI&color=blue)](https://pypi.org/project/semantica/)
-[![Downloads](https://static.pepy.tech/badge/semantica)](https://pepy.tech/project/semantica)
-[![Stars](https://img.shields.io/github/stars/semantica-agi/semantica?style=flat-square&color=gold&label=⭐%20Stars)](https://github.com/semantica-agi/semantica/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/semantica-agi/semantica?style=for-the-badge&color=FFD700&label=⭐%20GitHub%20Stars)](https://github.com/semantica-agi/semantica/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/semantica?style=for-the-badge&color=3775A9&label=PyPI)](https://pypi.org/project/semantica/)
+[![Downloads](https://img.shields.io/pepy/dt/semantica?style=for-the-badge&color=brightgreen&label=Downloads)](https://pepy.tech/project/semantica)
+[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sV34vps5hH)
 
 </div>
 
 ---
 
-Most AI agents act without a trail. Semantica adds **context graphs, auditable decisions, and full provenance** to any AI stack — every output traceable, every decision auditable, nothing a black box.
+We build the **semantic layer** that sits between your AI agents and the world — giving them structured memory, auditable decisions, and traceable reasoning instead of opaque vector blobs.
 
 ```bash
 pip install semantica
@@ -30,30 +27,39 @@ pip install semantica
 
 ---
 
-## What We Build
+## What We're Building
 
-| | |
-| --- | --- |
-| 🕸️ **Context Graphs** | Structured, queryable graphs of what your agent knows and decides |
-| 🧠 **Decision Intelligence** | Causal chains, precedent search, impact analysis |
-| 🔍 **Full Provenance** | Every fact traced to source — W3C PROV-O compliant |
-| ⚙️ **Reasoning Engines** | Forward chaining, Rete, SPARQL — explainable paths |
-| ⏱️ **Temporal Intelligence** | Point-in-time snapshots, bi-temporal provenance |
-| 📐 **Ontology & SHACL** | OWL generation, shape validation, SKOS vocabularies |
+- **Context Graphs** — structured, queryable knowledge of everything your agent knows and decides
+- **Decision Intelligence** — every decision a first-class object with causal chains and audit trails
+- **Full Provenance** — every output traceable back to its source, W3C PROV-O compliant
+- **Reasoning Engines** — forward chaining, Rete, SPARQL — explainable paths, not black boxes
+- **Temporal Intelligence** — query your graph as it existed at any point in time
+- **Ontology & Validation** — OWL generation, SHACL constraints, SKOS vocabularies
 
 ---
 
-## Connect & Contribute
+## The Stack
 
-| | |
-| --- | --- |
-| 💬 **Discord** | [discord.gg/sV34vps5hH](https://discord.gg/sV34vps5hH) — help, showcases, discussion |
-| 𝕏 **X / Twitter** | [@BuildSemantica](https://x.com/BuildSemantica) |
-| 🐙 **GitHub** | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) |
-| 📄 **Docs** | [docs.getsemantica.ai](https://docs.getsemantica.ai/) |
-| 🐛 **Issues** | [Good first issues](https://github.com/semantica-agi/semantica/issues?q=label%3A%22good+first+issue%22) |
-| 🏢 **Enterprise** | [getsemantica.ai](https://getsemantica.ai/) |
+- **CLI + REST API** — 109 endpoints, a full terminal interface, interactive shell REPL
+- **Knowledge Explorer** — real-time graph canvas, decision browser, entity resolution UI
+- **MCP Server** — connects to Claude, Cursor, Windsurf, VS Code, and more
+- **Plugin Bundles** — native skills for Claude Code, Cursor, and Codex CLI
+- **Graph Backends** — Neo4j · FalkorDB · Apache AGE · AWS Neptune
+- **100+ LLM providers** via LiteLLM
 
 ---
 
-MIT License · Built by **Semantica** · ⭐ [Star us on GitHub](https://github.com/semantica-agi/semantica)
+## For Teams That Need Accountability
+
+AI in healthcare, finance, legal, and infrastructure can't be a black box. Semantica gives regulated industries the audit trail, conflict detection, and provenance they need to deploy AI with confidence.
+
+---
+
+## Get Involved
+
+- 📄 [Docs](https://docs.getsemantica.ai/) · [Website](https://getsemantica.ai/) · [Changelog](https://github.com/semantica-agi/semantica/blob/main/CHANGELOG.md)
+- 💬 [Discord](https://discord.gg/sV34vps5hH) — questions, showcases, contributors
+- 🐛 [Good first issues](https://github.com/semantica-agi/semantica/issues?q=label%3A%22good+first+issue%22) — great place to start
+- 🏢 [Enterprise](https://getsemantica.ai/) — private cloud, custom deployment
+
+MIT
