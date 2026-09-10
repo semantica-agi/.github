@@ -4,11 +4,9 @@
 
 # Semantica
 
-## Semantic Infrastructure for AI Systems
+*Semantic Infrastructure for AI Systems, built for high-stakes, regulated domains*
 
 Context · Decisions · Provenance
-
-**Built for High-Stakes, Regulated Domains**
 
 [![Stars](https://img.shields.io/github/stars/semantica-agi/semantica?style=flat-square&color=FFD700&logo=github&logoColor=white&label=Stars)](https://github.com/semantica-agi/semantica/stargazers)
 [![Forks](https://img.shields.io/github/forks/semantica-agi/semantica?style=flat-square&color=6E40C9&logo=github&logoColor=white&label=Forks)](https://github.com/semantica-agi/semantica/network/members)
@@ -25,37 +23,11 @@ Context · Decisions · Provenance
 
 </div>
 
-Your data lives in a dozen places, and your AI only sees pieces of it. Semantica is the semantic/context layer that connects everything into one living knowledge graph, deterministic by design, with every decision traceable and every output auditable.
+Your data lives in a dozen places, and your AI only sees pieces of it. Semantica is the semantic/context layer that connects everything into one living, auditable Context Graph your agents can reason across.
 
 ```bash
 pip install semantica
 ```
-
-**Connected Knowledge** · Ingests from every source, including Databricks and Snowflake, resolves entities, and unifies it all into one queryable graph
-
-**Shared Context Layer** · Structured knowledge of what entities are, how they relate, and how they've changed, live across every agent and session
-
-**Decision Intelligence** · Every decision is a queryable object: inputs, confidence, and a full causal chain, explainable in plain language
-
-**Governed Ontology** · OWL, SHACL, and SKOS make what your data means explicit and machine-checkable, with conflicts flagged and duplicates merged automatically
-
-**Deep Provenance** · Every fact and output traces to its exact source, exportable as a W3C PROV-O audit trail
-
-**Temporal Intelligence** · Query your graph as it existed at any point in time, not just as it is now
-
-## The Stack
-
-**CLI + REST API** · Terminal interface, interactive REPL, and a full REST backend
-
-**Knowledge Explorer** · Real-time graph canvas, decision browser, ontology hub, entity resolution UI
-
-**MCP Server** · Connects to Claude, Cursor, Windsurf, Cline, VS Code, and more
-
-**Polyglot Storage** · RDF triple stores (Oxigraph, Blazegraph, Jena, RDF4J) and property graphs (Neo4j, FalkorDB, Apache AGE, AWS Neptune)
-
-**Enterprise Connectors** · Databricks, Snowflake, and SAP, turning tables already in your lakehouse or warehouse into graph nodes
-
-**Every Major LLM** · OpenAI, Anthropic, Gemini, Mistral, Llama, Bedrock, Azure, Ollama, and more, entirely optional
 
 ## Get Involved
 
